@@ -134,5 +134,8 @@ target_link_libraries(quadruped PUBLIC
 
 add_dependencies(quadruped ${catkin_EXPORTED_TARGETS})
 
+# for real machine
 
+set(CMAKE_C_COMPILER "aarch64-linux-gnu-gcc")
+set(CMAKE_CXX_COMPILER "aarch64-linux-gnu-g++")
 
