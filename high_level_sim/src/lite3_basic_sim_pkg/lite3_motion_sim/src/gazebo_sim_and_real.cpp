@@ -67,7 +67,7 @@ int main(int argc, char* argv[])
 
 /********************************************************/
 
-  int is_sim_mode=1; // 0: real_mode; 1: sim_mode
+  int is_sim_mode=0; // 0: real_mode; 1: sim_mode
 
   RobotState  RobotState_sim;
   memset(&RobotState_sim, 0, sizeof(RobotState_sim));
